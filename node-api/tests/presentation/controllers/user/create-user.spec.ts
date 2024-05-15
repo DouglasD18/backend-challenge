@@ -1,5 +1,5 @@
-import { CreateUserController } from "@/src/presentation/controllers/user/create-user/create-user";
-import { Validated, Validator, CreateUser, CreateUserPayload, MissingParamError, InvalidParamError, serverError } from "@/src/presentation/controllers/user/create-user/create-user-protocols";
+import { CreateUserController } from "@/presentation/controllers/user/create-user/create-user";
+import { Validated, Validator, CreateUser, CreateUserPayload, MissingParamError, InvalidParamError, serverError } from "@/presentation/controllers/user/create-user/create-user-protocols";
 
 const VALIDATED: Validated = {
   isValid: true

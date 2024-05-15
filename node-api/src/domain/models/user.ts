@@ -1,14 +1,14 @@
-export interface User {
+export type User = {
   id: number;
   email: string;
   password: string;
 }
 
-export interface CreateUserPayload {
+export type CreateUserPayload = {
   email: string;
   password: string;
 }
 
-export interface UpdateUserPayload {
+export type UpdateUserPayload = {
   token: string;
 }
